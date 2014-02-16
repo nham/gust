@@ -1,0 +1,25 @@
+Compiles to a subset of C++, steals a lot of ideas from Rust.
+
+No refs, only pointers. Add a second assignment operator, one for changing where we're pointing (:=) and one for changing the thing being pointed to (:-). See http://www.stroustrup.com/bs_faq2.html#pointers-and-references
+
+No inheritance. Use traits. (call them interfaces?) Except for operator overloading? That seems like it might be too hard to shoehorn into traits.
+
+Everything immutable by default. `mut` keyword makes it mutable, just like Rust.
+
+Use enum classes? I'm not going to emulate the enums from Rust probably. Yes, and just call them enums.
+
+Same basic types as in C++.
+
+function syntax a hybrid of go and rust? fn foo(x int, y bool) -> string
+
+"using std::string" by default?
+
+steal type declarations from golang. *[]int
+
+( , ) syntax for tuples. does that mean we support destructuring syntax for tuples?
+
+special syntax for std::vectors?
+
+should we steal slicing from golang somehow?
+
+new syntax for lambda expressions?
